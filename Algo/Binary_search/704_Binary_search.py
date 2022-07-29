@@ -11,6 +11,9 @@ class Solution:
                 left = pivot + 1
         return -1
 
+sol = Solution()
+result = sol.search([10,11,16,20],13)
+print(result)
 # Example execution:
 # [1,2,3,4],5
 # pivot = 0 + (3-0) // 2 = 3//2 = 1
